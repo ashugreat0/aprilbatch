@@ -1,0 +1,13 @@
+activity
+create a branching rule
+1. that minimum 2 people should review your code before merging
+2. you should restrict direct changes on the main branch
+
+activity2 
+try to write your own sample git actions
+create a condition if you are merging in feature1 branch then only it should run
+
+
+
+activity3:
+create a txt file and try to store the secret in the file and check what happens when you will run the push command

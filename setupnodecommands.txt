@@ -1,0 +1,54 @@
+pwd
+    2  cd opt
+    3  cd ..
+    4  pwd
+    5  mkdir jenkins
+    6  sudo mkdir jenkins
+    7  ls
+    8  chmod 755 jenkins
+    9  sudo chmod 755 jenkins
+   10  cd jenkins
+   11  pwd
+   12  ssh-keygen
+   13  cd  /home/ubuntu/.ssh/
+   14  ls
+   15  sudo cat id_ed25519
+   16  sudo cat id_ed25519.pub
+   17  sudo vim authorized_keys
+   18  cat authorized_keys
+   19  sudo apt update
+   20  sudo apt install openjdk-11-jre -y
+   21  ssh-keygen -t rsa
+   22  ls
+   23  cat id_rsa
+   24  ls
+   25  cat id_rsa.pub
+   26  sudo vim authorized_keys
+   27  cd ..
+   28  ls
+   29  cd home/jenkins
+   30  cd /home/jenkins
+   31  ls -ld /home/jenkins
+   32  sudo chown -R jenkins:jenkins /home/jenkins
+   33  sudo useradd -m -s /bin/bash jenkins
+   34  sudo chown -R jenkins:jenkins /home/jenkins
+   35  ls -ld /home/jenkins
+   36  cd ..
+   37  sudo rm -rf /home/jenkins
+   38  ls
+   39  mkdir jenkins
+   40  sudo mkdir jenkins
+   41  ls
+   42  sudo chown -R jenkins:jenkins /home/jenkins
+   43  ls -ld /home/jenkins
+   44  cd ..
+   45  ls
+   46  cd opt
+   47  mkdir jenkins
+   48  sudo mkdir jenkins
+   49  chmod 755 jenkins
+   50  sudo chmod 755 jenkins
+   51  sudo chmod 777 jenkins
+   52  sudo apt update
+   53  sudo apt install openjdk-17-jre -y
+   54  history
